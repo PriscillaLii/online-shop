@@ -5,3 +5,4 @@ Built the recommendation system by analyzing the keywords frequency of the colle
 Used MongoDB and Hadoop to store informations as distribution data.
 
 I built the database and some of the front-end part and also some back-end function.
+The design file and requirements analysis is in Chinese(Simplified).
