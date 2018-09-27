@@ -1,0 +1,7 @@
+Team, Course Project 
+
+Developed a web application of filtering, recommending and searching local restaurants.
+Built the recommendation system by analyzing the keywords frequency of the collected comments.
+Used MongoDB and Hadoop to store informations as distribution data.
+
+I built the database and some of the front-end part and also some back-end function.
