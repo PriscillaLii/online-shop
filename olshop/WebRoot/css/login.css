@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font: 12px/150% Arial,Verdana,"宋体";
+    color: #666;
+}
+* {
+    box-sizing: border-box;
+}
+.w {
+    width: 1140px;
+    margin: 0px auto;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+a img {
+    border: 0px none;
+}
+#logo {
+    position: relative;
+    width: 300px;
+    margin: 10px 0px 0px;
+    height: 60px;
+}
+#logo b {
+    display: block;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background: url("../image/l-icon.png") no-repeat scroll 0% 0% transparent;
+}
+.login-wrap {
+    position: relative;
+    height: 420px;
+    margin: 10px 0px 20px;
+}
+.login-wrap .login-form {
+    float: right;
+    top: 40px;
+}
+.login-form {
+    position: relative;
+    z-index: 4;
+    width: 50%;
+    background: none repeat scroll 0% 0% #FFF;
+    padding: 0px;
+    overflow: visible;
+}
+.col-md-6 {
+    width: 100%;
+    border: 1px solid #E1E1E1;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding: 25px;
+}
+.login-left h3, .login-right h3 {
+    color: #F54D56;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+h4, h5, h6, h1, h2, h3 {
+    margin-top: 0px;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.login-right form {
+    padding: 1em 0px;
+}
+.login-right form div {
+    padding: 0px 0px 1.5em;
+}
+.login-right span {
+    color: #999;
+    padding-bottom: 0.2em;
+    display: block;
+    font-size: 14px;
+}
+.login-right input[type="text"] {
+    border: 1px solid #DDDBDB;
+    outline-color: #FB4D01;
+    width: 96%;
+    font-size: 0.8125em;
+    padding: 10px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0px;
+    font: inherit;
+    color: inherit;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.login-right input[type="submit"] {
+    background: none repeat scroll 0% 0% #F54D56;
+    color: #FFF;
+    padding: 0.7em 1.2em;
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    text-transform: uppercase;
+    border: medium none;
+    outline: medium none;
+    margin: 0px 40px;
+    width: 200px;
+    float: left;
+    font-size: 14px;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+.acount-btn {
+    background: none repeat scroll 0% 0% #F54D56;
+    color: #FFF;
+    padding: 0.7em 1.2em;
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0px 10px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.acount-btn:hover, .login-right input[type="submit"]:hover{
+	background:#000;
+	text-decoration:none;
+	color:#fff;
+}
+.login-wrap .login-banner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 420px;
+    background: none repeat scroll 0% 0% #A7CEDE;
+}
+.login-wrap .i-inner {
+	top: 40px;
+	float: left;
+    position: relative;
+    z-index: 3;
+	width: 49%;
+    height: 326px;
+}

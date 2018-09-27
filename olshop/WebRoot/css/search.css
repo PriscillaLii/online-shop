@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, object, embed, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, cite, code, del, dfn, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td, address, b, big, blockquote, center, em, fieldset, font, form, i, ins, pre, small, strong, u, var {
+    margin: 0px;
+    padding: 0px;
+}
+body{font:12px/150% Arial,Verdana,"\5b8b\4f53";color:#666;background:#fff}
+em, i, u {
+    font-style: normal;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+    border: 0px none;
+}
+ol, ul {
+    list-style: outside none none;
+}
+.hide {
+    display: none;
+}
+.w {
+    width: 1210px;
+    margin: 0px auto;
+}
+#logo-2014 {
+    position: relative;
+    z-index: 12;
+    float: left;
+    width: 362px;
+    height: 60px;
+    padding: 20px 0px;
+}
+
+#logo-2014 .logo {
+    display: block;
+    width: 270px;
+    height: 60px;
+    background:url("../image/logo.png") no-repeat scroll 0px 0px transparent;
+    text-indent: -20000px;
+}
+#shelper {
+    overflow: hidden;
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    width: 455px;
+    border: 1px solid #CCC;
+    background: none repeat scroll 0% 0% #FFF;
+}
+#search-2014 {
+	width: auto;
+    position: relative;
+    z-index: 11;
+    float: left;
+    margin-top: 25px;
+}
+#search-2014 .form {
+	width: auto;
+    height: 36px;
+}
+#search-2014 .text {
+    float: left;
+    width: 446px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    padding: 4px;
+    margin-bottom: 4px;
+    border-width: 2px 0px 2px 2px;
+    border-color: #FF3137;
+    border-style: solid;
+    outline: 0px none;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+#search-2014 .button {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background: none repeat scroll 0% 0% #FF3137;
+    border: medium none;
+    line-height: 1;
+    color: #FFF;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    cursor: pointer;
+}
+.cw-icon {
+    position: relative;
+    cursor: default;
+}
+button, input[type="button"], input[type="submit"] {
+    cursor: pointer;
+}
+
+#search-2014 .cw-icon i {
+    top: 0px;
+    left: 0px;
+    width: 82px;
+    height: 36px;
+}
+.cw-icon .i, .cw-icon i {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
+#settleup-2014 {
+    float: right;
+    z-index: 11;
+    height: 36px;
+    margin-top: 25px;
+	margin-right: 65px;
+}
+.dorpdown {
+    position: relative;
+}
+#settleup-2014 .cw-icon {
+    width: 75px;
+    height: 34px;
+    border: 1px solid #DFDFDF;
+    padding: 0px 28px 0px 36px;
+    background: none repeat scroll 0% 0% #F9F9F9;
+    text-align: center;
+    line-height: 34px;
+}
+.dorpdown-layer {
+    display: none;
+    position: absolute;
+	height: 200px;
+	width: 400px;
+	z-index: 10;
+}
+#settleup-2014 .prompt {
+    padding: 10px 15px;
+}
+#settleup-2014 .nogoods {
+    padding-left: 30px;
+    height: 49px;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+}
+#settleup-2014 .nogoods b {
+    float: left;
+    width: 56px;
+    height: 49px;
+    background-image: url("../image/settleup-nogoods.png");
+}
+#settleup-2014 .ci-left {
+    top: 9px;
+    left: 18px;
+    width: 18px;
+    height: 16px;
+    background: url("../image/jd2015img.png") no-repeat scroll 0px -58px transparent;
+}
+#settleup-2014 .ci-right {
+    top: 11px;
+    right: 10px;
+    width: 7px;
+    height: 13px;
+    overflow: hidden;
+    font: 400 13px/13px simsun;
+    color: #999;
+}
+#settleup-2014 .ci-count {
+    position: absolute;
+    top: -4px;
+    left: 104px;
+    display: inline-block;
+    padding: 1px 2px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFF;
+    background-color: #C81623;
+    border-radius: 7px 7px 7px 0px;
+    min-width: 12px;
+    text-align: center;
+}
+.dorpdown-layer {
+    display: none;
+    position: absolute;
+}
+#settleup-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    background: none repeat scroll 0% 0% #FFF;
+}
+#settleup-content .loading {
+    display: block;
+    height: 50px;
+    background: url("http://misc.360buyimg.com/jdf/1.0.0/unit/globalImages/1.0.0/loading.gif") no-repeat scroll center center transparent;
+}
+.clear, .clr {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0px;
+    line-height: 0;
+    font-size: 0px;
+}
+#hotwords-2014 {
+    float: left;
+    width: 518px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}

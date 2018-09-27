@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+    	<action name="login" class="org.action.LoginAction">
+    		<result name="success">/main.jsp</result>
+    		<result name="error">/login.jsp</result>
+    		<result name="input">/login.jsp</result>
+    	</action>
+    	
+    	<action name="logout" class="org.action.LoginAction" method="logout">
+			<result name="input">/login.jsp</result>
+			<result name="success">/main.jsp</result>
+		    </action>
+		 
+		 
+		 
+		 <action name="hotproduct" class="org.action.HotproductAction">
+			<result name="success">/main.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   
+		   
+		   
+		   <action name="inpricesort" class="org.action.SortAction" method="priceinc">
+			<result name="success">/productview.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   <action name="depricesort" class="org.action.SortAction" method="pricedes">
+			<result name="success">/productview.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   <action name="insellnumsort" class="org.action.SortAction" method="countinc">
+			<result name="success">/productview.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   <action name="producttype" class="org.action.ProducttypeAction">
+			<result name="success">/productview.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+    	<action name="productview" class="org.action.ProductviewAction">
+    		<result name="success">/productview.jsp</result>
+    	</action>
+    		
+    	<action name="search" class="org.action.ProsearchAction">
+			<result name="success">/productview.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   <action name="productbuy" class="org.action.ProductbuyAction">
+			<result name="success" type="redirectAction">cartview</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   <action name="productdetail" class="org.action.ProductdetailAction">
+			<result name="success">/productdetail.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   <action name="myorder" class="org.action.MyorderAction">
+			<result name="success">/order.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   
+		   
+		   
+		   <action name="cartview" class="org.action.CartviewAction">
+			<result name="success">/cart.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   <action name="settlecart" class="org.action.SettlecartAction">
+			<result name="success">/verifyorder.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+    		<action name="submitOrder" class="org.action.SubmitOrderAction">
+			<result name="success" type="redirectAction">myorder</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+    		<action name="cartdelete" class="org.action.CartdeleteAction">
+			<result name="success" type="redirectAction">cartview</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   
+		   <action name="orderdelete" class="org.action.OrderdeleteAction">
+			<result name="success" type="redirectAction">myorder</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		   <action name="myinfo" class="org.action.MyinfoAction">
+			<result name="success">/myinfo.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+		   
+		    <action name="register" class="org.action.RegisterAction">
+			<result name="success">/main.jsp</result>
+			<result name="error">/main.jsp</result>
+			<result name="input">/main.jsp</result>
+		   </action>
+    </package>
+</struts>

@@ -1,0 +1,116 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body {
+	background:#fff;
+	font:normal 12px/22px 宋体;
+}
+img {
+	border:0;
+}
+a {
+	text-decoration:none;
+	color:#333;
+	background-color: #FFF;
+}
+.item {
+	width: 1200px;
+	height: 475px;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.item .kind {
+	padding-top: 1px;
+	width: 1200px;
+	height: 54px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative
+}
+.item .items-in {
+	padding-left: 0px;
+	width: 1205px;
+	overflow: hidden;
+	margin: 0px;
+}
+.item .items-in .item-in {
+    width: 236px;
+    height: auto;
+    margin: auto;
+    position: relative;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+	display:inline;
+}
+.item .items-in .item-in img {
+	width: 220px;
+	height: 310px;
+	background-color: #fff;
+	border: 8px solid #EBEBEB;
+	box-sizing: content-box;
+}
+.item .items-in .item-in .text {
+    width: 220px;
+    height: auto;
+    background-color: #FFF;
+    opacity: 0.7;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+	margin: 0px 0px 8px 8px;
+}
+.item .items-in .item-in .text .item_dsr {
+    height: 70px;
+    background-color: #FFF;
+    padding: 0px 5px;
+    margin-top: 1px;
+    z-index: 3;
+}
+.item .items-in .item-in .text .item_dsr h4 {
+	margin: 0px auto;
+    width: 200px;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: normal;
+}
+.item .items-in .item-in .text .item_dsr .price {
+    height: 30px;
+    line-height: 30px;
+    color: #FF4500;
+    overflow: hidden;
+    width: 200px;
+    margin: 0px auto;
+}
+.item .items-in .item-in .text .item_dsr .price strong {
+    font-size: 18px;
+    float: left;
+}
+.item .items-in .item-in .text .imgtext {
+    width: 220px;
+    height: 80px;
+    padding: 20px 10px;
+    color: #333;
+    font-size: 12px;
+}
+
+/* 标题 */
+.mod_floor_title {
+    height: 32px;
+    border-bottom: 1px solid #f54d56;
+    line-height: 32px;
+    background: none repeat scroll 0% 0% #F9F9F9;
+    padding-top: 20px;
+}
+.mod_floor_title .bt {
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+	color: #f54d56;
+}

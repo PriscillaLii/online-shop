@@ -1,0 +1,4 @@
+olshop.sql是数据库建表
+product.sql是商品输入信息
+jsp基本都有两个，比如main.jsp和main1.jsp，其中xxx1.jsp是原始版本，xxx.jsp是整合ui设计同学界面后的版本。
+打开时先打开first.jsp
